@@ -1,0 +1,16 @@
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Inventory inventory = new Inventory();
+		
+		Item item1 = new Item("Lance",1);
+		Item item2 = new Item("roasted chicken",3);
+
+		inventory .additem(item1);
+		inventory .additem(item2);
+		
+		inventory .displayInventory();
+	}
+
+}
